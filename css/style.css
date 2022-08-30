@@ -1,0 +1,142 @@
+body{
+    background-color: #782DC8;
+    font-family: Ubuntu, sans-serif;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    height: 15rem;
+}
+
+.container {
+    background-color: white;
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 15px;
+    position: relative;
+}
+
+#divTitle {
+    background-color: #461B76;
+    width: 75%;
+    margin: -25px auto 30px auto;
+    border: 1px solid #461B76;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px;
+}
+
+#divTitle h1 {
+    margin: 10px 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#resultadosImc {
+    overflow: auto;
+    margin: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1443px) {
+    .container {
+        width: 40%;
+    }
+    
+    #divTitle {
+        width: 60%;
+    }
+    
+    #divTitle h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 1444px) {
+    .container {
+        width: 44%;
+    }
+    
+    #divTitle {
+        width: 60%;
+    }
+    
+    #divTitle h1 {
+        font-size: 2rem;
+    }
+}
+
+label {
+    white-space: pre;
+    height: 30px;
+    font-size: 1rem;
+    margin-left: -115px;
+    position: absolute;
+    text-align: left;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+button {
+    padding: 15px 25px;
+    color: white;
+    background-color: #ff5000;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size:large;
+}
+
+a:hover,
+button:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 10px 35px 0 #EB4B0080;
+}
+
+.mostraResultados {
+    padding: 10px;
+}
+
+.mostraResultados #mostraResultados {
+    text-decoration: underline;
+}
+
+#resultadosImc {
+    display: none;
+}
+
+button#voltarForm {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 20px auto 25px auto;
+    border-collapse: collapse;
+}
+
+table tr#tableHead th {
+    font-weight: 600;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+
+table tr#tableBody td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
