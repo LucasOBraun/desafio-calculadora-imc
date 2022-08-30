@@ -21,4 +21,4 @@ O backend do projeto foi desenvolvido com PHP, o frontend com CSS e JavaScript p
 3) Rode o comando "php -S localhost:9000";
 4) Acesse seu navegador com: localhost:9000.
 
-### Caso queira ver o projeto em produção, acesse: lucasbraun.kinghost.net
+### Caso queira ver o projeto em produção, acesse: http://lucasbraun.kinghost.net/
